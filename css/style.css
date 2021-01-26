@@ -50,7 +50,7 @@
 .heroText h1 {
 	font-size: 1.5em;
 	color: #fff;
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	overflow-y: hidden;
     margin: 0;
@@ -59,7 +59,7 @@
 .heroText h2 {
 	color: #fff;
 	font-size: 1em;
-	text-align: left;
+	text-align: center;
 	line-height: 1.6em;
     padding: 30px 0;
     position: relative;
@@ -75,11 +75,31 @@
     height: 5px;
     background: var(--primary);
     top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .about-button,
 .quote-button {
     width: 138px;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (min-width: 390px) {
+    .heroText h1 {
+        font-size: 2em;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .heroText h2:before {
+        top: -7px;
+    }
+    
+    .heroText h2 {
+        margin-bottom: 30px;
+    }
 }
 
 /*-- -------------------------- -->
@@ -230,6 +250,7 @@
 
 .service-button {
     margin: auto;
+    margin-bottom: 50px;
     display: block;
 }
 

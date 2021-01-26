@@ -360,8 +360,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation Links */
 
 .mobile-wrapper img {
-    height: 40px;
+    height: 100px;
     z-index: 10;
+    margin-top: 50px;
 }
 
 .navbar-menu {
@@ -942,7 +943,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
     padding-top: 50px;
     z-index: 1;
 }
@@ -1061,7 +1061,8 @@ footer p {
 @media screen and (min-width: 1024px) {
 
 	footer {
-		padding-top: 100px;
+        padding-top: 100px;
+        background-attachment: fixed;
     }
     
     footer img {
