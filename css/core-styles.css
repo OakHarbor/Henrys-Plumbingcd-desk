@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: .3s ease;
     transition: .3s ease;
     font-family: 'Oswald', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: .1em;
     box-sizing: content-box;
     position: relative;
