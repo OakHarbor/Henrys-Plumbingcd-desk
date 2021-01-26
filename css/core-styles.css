@@ -18,9 +18,9 @@
 }
 
 :root {
-    --primary: #207bd6;
+    --primary: #ce9627;
     --dark: #0a3b5e;
-    --light: #207bd6;
+    --light: #ce9627;
     --secondary: #1375BC;
     --secondaryLight: #f7a5a7;
     --secondaryDark: #760f12;
@@ -651,7 +651,6 @@ h1, h2, h3, h4, h5, h6 {
 	.quote-nav-button {
         display: block;
         color: #f5f3f3;
-        background: var(--secondary);
     }
     
     .quote-nav-button:hover {
@@ -668,7 +667,7 @@ h1, h2, h3, h4, h5, h6 {
 		position: absolute;
 		left: 2em;
         height: auto;
-        width: 200px;
+        width: 250px;
 	}
 
 	/*navbar */
@@ -973,7 +972,7 @@ footer:before {
 }
 
 footer img {
-    height: 70px;
+    height: 120px;
     width: auto;
     margin-bottom: 30px;
 }
@@ -1066,7 +1065,7 @@ footer p {
     }
     
     footer img {
-        height: 80px;
+        height: 200px;
         width: auto;
     }
 
@@ -1082,6 +1081,7 @@ footer p {
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
         padding: 0;
+        max-width: 1200px;
 	}
 
 	.footer-item {
@@ -1089,7 +1089,7 @@ footer p {
     }
     
     .item-1 {
-        width: 240px;
+        width: 264px;
     }
 
 	.item-4 {

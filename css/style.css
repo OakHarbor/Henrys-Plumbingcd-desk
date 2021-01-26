@@ -704,6 +704,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 
 .gallery-group img {
     width: 43%;
+    height: 43vw;
     margin: 10px;
     border: 7px solid #fff;
     -webkit-box-shadow: 10px 10px 34px -21px rgba(0,0,0,0.75);
@@ -1212,6 +1213,7 @@ footer {
 
     .gallery-group img {
         width: 40%;
+        height: 40vw;
         border: 12px solid #fff;
     }
 
@@ -1459,7 +1461,7 @@ footer {
             -ms-flex-align: center;
                 align-items: center;
         max-width: 1100px;
-        width: 1100px;
+        width: 1000px;
     }
 
     .estimate h2 {
@@ -1470,7 +1472,7 @@ footer {
 
     .estimate-button {
         margin: 50px 0 50px auto;
-        width: 250px;
+        width: 270px;
     }
 
     /*-- -------------------------- -->
@@ -1678,6 +1680,7 @@ footer {
 
     .gallery-group img {
         width: 18%;
+        height: 18vw;
     }
 
     /*-- -------------------------- -->
