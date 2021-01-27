@@ -357,7 +357,7 @@
     z-index: 10;
     color: #fff;
     text-align: center;
-    font-size: 1.750em;
+    font-size: 1.950em;
     font-weight: 800;
     margin-bottom: 90px;
     margin-top: 70px;
@@ -383,7 +383,8 @@
     background: transparent;
     height: 200px;
     width: 180px;
-    border: 10px solid rgba(255, 255, 255, .3);
+    border: 10px solid rgba(206, 150, 39, .4);
+    z-index: -1;
 }
 
 .why-item {
@@ -495,7 +496,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 
 .card p {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
 }
 
 .card h2 {
