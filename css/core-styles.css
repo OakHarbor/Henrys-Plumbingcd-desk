@@ -953,7 +953,7 @@ h1, h2, h3, h4, h5, h6 {
 /* mobile footer */
 
 footer {
-	background: url('/images/about-desktop-mobile.jpg');
+	background: url('/images/about-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
