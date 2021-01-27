@@ -1695,7 +1695,7 @@ footer {
     .seal {
         width: 500px;
         right: -200px;
-        opacity: .1;
+        opacity: .05;
     }
 
     .seal2 {
@@ -1882,6 +1882,24 @@ footer {
 
     .contact-group h2 {
         margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .seal {
+        width: 600px;
+        right: -400px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+
+    .seal {
+        width: 740px;
+        right: -500px;
     }
 
 }
