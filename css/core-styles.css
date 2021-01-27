@@ -152,7 +152,6 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: .3s ease;
     transition: .3s ease;
     font-family: 'Oswald', sans-serif;
-    font-weight: normal;
     letter-spacing: .1em;
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
