@@ -1594,6 +1594,9 @@ footer {
     }
 
     .why-us-float {
+        width: 100%;
+        -webkit-box-shadow: 10px 10px 34px -21px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px -21px rgba(0,0,0,0.75);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1604,7 +1607,7 @@ footer {
     }
 
     .card {
-        width: 33%;
+        width: 33.33%;
     }
 
     .card h2 {
