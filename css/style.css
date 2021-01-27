@@ -1695,7 +1695,14 @@ footer {
     .seal {
         width: 500px;
         right: -200px;
-        opacity: .05;
+        opacity: .1;
+    }
+
+    .seal2 {
+        left: 50%;
+        margin-left: -800px;
+        width: 550px;
+        top: 130px;
     }
 
     .service-button {
