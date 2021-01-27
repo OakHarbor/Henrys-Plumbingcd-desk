@@ -1419,7 +1419,7 @@ footer {
 
     #service-section {
         background: url("/images/faded-texture-desktop.png");
-        background-position: fixed;
+        background-attachment: fixed;
     }
 
     #customer-service {
@@ -1581,7 +1581,7 @@ footer {
 
     #why-us {
         background: url("/images/faded-texture-desktop.png");
-        background-position: fixed;
+        background-attachment: fixed;
     }
 
     .why-us-float {
@@ -1712,7 +1712,7 @@ footer {
 
     #gallery {
         background: url("/images/faded-texture-desktop.png");
-        background-position: fixed;
+        background-attachment: fixed;
     }
 
     .gallery-group {
