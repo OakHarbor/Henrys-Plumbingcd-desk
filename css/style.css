@@ -1595,6 +1595,8 @@ footer {
     }
 
     .why-us-float {
+        position: relative;
+        z-index: 1000;
         width: 100%;
         -webkit-box-shadow: 10px 10px 34px -21px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 34px -21px rgba(0,0,0,0.75);
