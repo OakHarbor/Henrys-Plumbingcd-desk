@@ -36,6 +36,10 @@ p {
 	line-height: 1.6em;
 }
 
+a:hover, button:hover {
+    cursor: pointer;
+}
+
 li {
     line-height: 1.6em;
 }
@@ -423,7 +427,9 @@ h1, h2, h3, h4, h5, h6 {
 	     -o-transition-delay: .2s;
 	        transition-delay: .2s;
 	opacity: 0;
-	visibility: hidden;
+    visibility: hidden;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
 }
 
 .active-menu {
@@ -989,11 +995,27 @@ footer img {
     margin-bottom: 30px;
 }
 
-.line {
+footer .line {
 	background: var(--light);
 	width: 50px;
 	height: 3px;
-	margin: 15px auto 15px 0;
+    margin: 15px auto 15px 0;
+    position: relative;
+    margin-left: 13px;
+}
+
+footer .line:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 7px;
+    border-radius: 50%;
+    width: 7px;
+    background: var(--primary);
+    margin-right: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -13px;
 }
 
 footer h2, footer p {

@@ -403,7 +403,6 @@
     font-size: 1em;
     line-height: 1.6em;
     font-family: 'Raleway', sans-serif;
-    text-transform: capitalize;
 }
 
 .why-item p {
@@ -471,6 +470,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
     left: 0;
 }
 
+.card:hover:before {
+    background: var(--primary);
+}
+
 .card p, .card h2, .card button {
     position: relative;
     z-index: 10;
@@ -512,6 +515,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
     padding: 0 15px;
     height: 40px;
 }
+
 
 /*-- -------------------------- -->
 <---           OFFER            -->
@@ -1635,6 +1639,11 @@ footer {
 
     .mobile-service-button {
         display: none;
+    }
+
+    .service-button:hover, .desktop-service-button:hover {
+        background: #000;
+        color: #fff;
     }
 
     .offer {
