@@ -631,10 +631,7 @@ h1, h2, h3, h4, h5, h6 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        flex-direction: column;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
@@ -647,7 +644,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .contact-group p {
-        width: 500px;
+        width: 420px;
         margin: 30px;
     }
 }

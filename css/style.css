@@ -172,6 +172,10 @@
 /* Main Content */
 #why-us {
     position: relative;
+    background: url("/images/faded-texture-mobile.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .seal2 {
@@ -235,7 +239,15 @@
     text-align: center;
 }
 
+#service-section {
+    background: url("/images/faded-texture-mobile.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #customer-service {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -632,6 +644,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 <--- -------------------------- -*/
 
 #gallery {
+    background: url("/images/faded-texture-mobile.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1401,6 +1417,11 @@ footer {
     <---           SERVICE          -->
     <--- -------------------------- -*/
 
+    #service-section {
+        background: url("/images/faded-texture-desktop.png");
+        background-position: fixed;
+    }
+
     #customer-service {
         padding-bottom: 0px;
     }
@@ -1558,6 +1579,11 @@ footer {
     <---           WHY US           -->
     <--- -------------------------- -*/
 
+    #why-us {
+        background: url("/images/faded-texture-desktop.png");
+        background-position: fixed;
+    }
+
     .why-us-float {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1683,6 +1709,11 @@ footer {
     /*-- -------------------------- -->
     <---           GALLERY          -->
     <--- -------------------------- -*/
+
+    #gallery {
+        background: url("/images/faded-texture-desktop.png");
+        background-position: fixed;
+    }
 
     .gallery-group {
         padding: 80px 0;
