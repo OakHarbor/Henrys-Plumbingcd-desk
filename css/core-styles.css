@@ -94,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     letter-spacing: .1em;
-    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     position: relative;
 }
 .button-solid:before {
@@ -106,7 +107,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     background: #fff;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     left: 0;
 }
 
@@ -119,7 +122,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     background: #fff;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     right: 0;
 }
 
@@ -149,7 +154,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     letter-spacing: .1em;
-    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     position: relative;
 }
 .button-white:before {
@@ -161,7 +167,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     background: #000;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     left: 0;
 }
 
@@ -174,7 +182,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     background: #000;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     right: 0;
 }
 
@@ -576,7 +586,14 @@ h1, h2, h3, h4, h5, h6 {
 
 	.mobile-nav-container {
 		max-width: 100% !important;
-	}
+    }
+    
+    .mobile-wrapper img {
+        height: 200px;
+        -webkit-transform: translateY(50px);
+            -ms-transform: translateY(50px);
+                transform: translateY(50px);
+    }
 	
 	/*-- -------------------------- -->
     <---          LANDING           -->
@@ -953,8 +970,7 @@ footer:before {
     height: 100%;
     width: 100%;
     background: rgb(40,41,45);
-    background: -moz-radial-gradient(circle, rgba(40,41,45,0.7595413165266106) 0%, rgba(0,0,0,1) 80%);
-    background: -webkit-radial-gradient(circle, rgba(40,41,45,0.7595413165266106) 0%, rgba(0,0,0,1) 80%);
+    background: -o-radial-gradient(circle, rgba(40,41,45,0.7595413165266106) 0%, rgba(0,0,0,1) 80%);
     background: radial-gradient(circle, rgba(40,41,45,0.7595413165266106) 0%, rgba(0,0,0,1) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endColorstr="#000000",GradientType=1);
     top: -3px;
