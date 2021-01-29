@@ -4,6 +4,10 @@
 <---         CORE STYLES        -->
 <--- -------------------------- -*/
 
+.desktop {
+    display: none;
+}
+
 .skip {
     position: absolute;
     top: 0;
@@ -656,6 +660,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
 
 	/* Hidden Elements */
 	.mobile-wrapper {
