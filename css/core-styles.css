@@ -522,8 +522,6 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("/images/textured-wall.jpg");
-    /* from PSHoudini https://www.deviantart.com/pshoudini/art/Black-wall-free-texture-338571524 */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
