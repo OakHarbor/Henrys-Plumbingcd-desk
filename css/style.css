@@ -676,7 +676,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 }
 
 .gallery-topper {
-    background: url("/images/victorian.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
@@ -763,8 +762,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 <--- -------------------------- -*/
 
 #trust-us {
-    background:url("../images/yellow-house.jpg");
-    background-repeat: no-repeat;
+    /*
+    background-repeat: no-repeat; */
     background-size: cover;
     position: relative;
 }
@@ -966,7 +965,6 @@ footer {
 }
 
 #contact-strip {
-    background:url("../images/northwest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 10px;
