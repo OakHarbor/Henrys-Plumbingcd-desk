@@ -224,7 +224,7 @@ body.dark-mode .mobile-dark {
 }
 
 body.dark-mode .desktop-dark {
-    display: block;
+    display: none;
     opacity: .5;
     z-index: -1;
 }
