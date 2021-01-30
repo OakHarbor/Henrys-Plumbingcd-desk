@@ -142,6 +142,7 @@ html {
         height: 600px;
         background-attachment: fixed;
         position: relative;
+        background: url("/images/wood-texture.jpg");
     }
 
     #home-h {
