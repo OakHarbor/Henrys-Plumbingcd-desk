@@ -213,7 +213,17 @@ body.dark-mode .seal {
     display: none;
 }
 
+body.dark-mode .seal2 {
+    display: none;
+}
+
 body.dark-mode .mobile-dark {
+    display: block;
+    opacity: .5;
+    z-index: -1;
+}
+
+body.dark-mode .desktop-dark {
     display: block;
     opacity: .5;
     z-index: -1;
@@ -275,4 +285,26 @@ body.dark-mode #wrapper {
 body.dark-mode #contact h3 {
     color: #fff;
     opacity: .85;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .top-dark-mode-button {
+        top: 84px;
+        left: 50%;
+        margin-left: 760px;
+        z-index: 10000;
+    }
+
+    .mobile-dark {
+        display: none !important;
+    }
+
+    .desktop-dark {
+        display: block !important;
+    }
+
+    body.dark-mode #why-us .desktop-dark {
+        opacity: .05;
+    }
 }
