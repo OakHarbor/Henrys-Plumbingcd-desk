@@ -76,7 +76,9 @@
     background: var(--primary);
     top: 12px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .about-button,
@@ -109,6 +111,7 @@
 /* Floating Box */
 .floating-box {
     background: #000;
+    z-index: 100;
 }
 
 .box-item {
@@ -532,6 +535,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
         -ms-transform: rotate(-25deg);
             transform: rotate(-25deg);
     opacity: .1;
+}
+
+.mobile-dark {
+    display: none;
 }
 
 .left {

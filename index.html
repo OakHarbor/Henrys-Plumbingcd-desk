@@ -28,6 +28,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/core-styles.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Roboto&display=swap" rel="stylesheet">
 
     <!-- jQuery -->
@@ -45,6 +46,11 @@
 
     <header>
         <!-- Desktop Navbar -->
+        <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+            <span aria-hidden="true" class="dark-toggle">
+                <span class="DTspan"><img class="gear" src="/images/golden-gear.svg" alt=""></span>
+            </span>
+        </button>
         <div class="mobile-wrapper">
             <div class="mobile-nav container mobile-nav-container">
                 <img id="mobile-logo" src="/images/company-logo-mobile.png" alt="mobile_company_logo" height="120px" width="153px"> 
@@ -175,7 +181,9 @@
             <div class="offer container">
                 <div class="left">
                     <img aria-hidden="true" class="seal mobile" src="/images/seal.png" alt="">
+                    <img aria-hidden="true" class="seal mobile mobile-dark" src="/images/seal.png" alt="">
                     <img aria-hidden="true" class="seal desktop" src="/images/seal.png" alt="">
+                    <img aria-hidden="true" class="seal desktop desktop-dark" src="/images/seal.png" alt="">
                     <!-- <p class="span">What We Offer</p> -->
                     <h2>A Plumber You Can <span>Trust</span></h2>
                     <p class="offer-p">Henry's Plumbing and Repair has been serving the San Jose area for decades providing the best quality plumbing and unmatched customer service.  We are a small, family owned and operated business, and since we don't have the overhead of a large company, we can pass the savings to our customers and make our services more affordable.</p>
@@ -323,6 +331,7 @@
                 </div>
             </div>
             <img class="seal2 mobile" aria-hidden="true" src="/images/seal2-mobile.png" alt="">
+            <img class="seal2 mobile mobile-dark" aria-hidden="true" src="/images/seal2-mobile.png" alt="">
             <img class="seal2 desktop" aria-hidden="true" src="/images/seal2.png" alt="">
             <h2 class=" service-h2">Customer serivce is our <span>#1 priority</span></h2>
         <p class=" service-p">We know plumbing work is not the easiest cost to swallow, and it can be difficult finding someone you can trust.  If you found us online and are reading our site, we want you to know you found the right company.

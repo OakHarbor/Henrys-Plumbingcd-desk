@@ -318,7 +318,8 @@
     margin-bottom: 20px;
     color: var(--primary);
 }
-p {
+
+main p {
     font-size: 1.125em;
     font-weight: normal;
     line-height: 1.7em;
