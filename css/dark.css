@@ -291,8 +291,7 @@ body.dark-mode #contact h3 {
 
     .top-dark-mode-button {
         top: 84px;
-        left: 50%;
-        margin-left: 760px;
+        right: 25px;
         z-index: 10000;
     }
 
@@ -306,5 +305,15 @@ body.dark-mode #contact h3 {
 
     body.dark-mode #why-us .desktop-dark {
         opacity: .05;
+    }
+}
+
+@media screen and (min-width: 1710px) {
+
+    .top-dark-mode-button {
+        top: 84px;
+        left: 50%;
+        margin-left: 760px;
+        z-index: 10000;
     }
 }
