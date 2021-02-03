@@ -1079,6 +1079,15 @@ footer p {
 	margin-right: 10px;
 }
 
+.item-1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-1a:hover {
+    text-decoration: underline;
+}
+
 .item-3 a {
     color: #ffffff;
     text-decoration: none;
@@ -1159,7 +1168,7 @@ footer p {
     }
     
     .item-1 {
-        width: 264px;
+        width: 230px;
     }
 
 	.item-4 {
