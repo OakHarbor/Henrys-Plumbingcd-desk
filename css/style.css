@@ -770,10 +770,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
 <--- -------------------------- -*/
 
 #trust-us {
-    /*
-    background-repeat: no-repeat; */
+    background: url("/images/wood-texture.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: -1px;
 }
 
 .review-group {
@@ -888,11 +889,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endCo
     left: 0;
     bottom: -10px;
     position: absolute;
-    background: rgb(41,162,228);
-    background: -o-radial-gradient(circle, var(--primary) 0%, rgba(45,180,253,1) 0%, var(--dark) 84%);
-    background: radial-gradient(circle, var(--primary) 0%, rgba(45,180,253,1) 0%, var(--dark) 84%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29a2e4",endColorstr="#175a7f",GradientType=1);
-    opacity: .89;
+    background: rgb(40,41,45);
+    background: -o-radial-gradient(circle, rgba(40,41,45,0.8379726890756303) 0%, rgba(0,0,0,1) 70%);
+    background: radial-gradient(circle, rgba(40,41,45,0.8379726890756303) 0%, rgba(0,0,0,1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28292d",endColorstr="#000000",GradientType=1);
+    opacity: 1;
 }
 
 /*-- -------------------------- -->
